@@ -1,0 +1,20 @@
+{
+  "name": "interclub-challenge-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "fake-data": "node create-fake-members.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nodemon": "^1.12.1"
+  }
+}
