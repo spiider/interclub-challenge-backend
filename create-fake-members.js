@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const MemberModel = require('./models/member');
 
-const amountMembers = 10;
+const amountMembers = 100;
 const memberPromises = [];
 
 mongoose.Promise = Promise;
